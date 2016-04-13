@@ -7,6 +7,8 @@ int main(void)
     int *ptrp = &p, *ptrq = &q;
     int **ppp = &ptrp, **ppq = &ptrq;
     swap_ptr(ppp,ppq); /* &ptrp, &ptrq passed */
+    printf("first = %d\n",*ptrp);
+    printf("second = %d\n", *ptrq);
     /* to swap_ptr() */
     return 0;
 }
