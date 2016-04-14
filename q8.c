@@ -64,6 +64,13 @@ void maximum( int grades[][ EXAMS ], int pupils, int tests ) {
     int j; /* loop counter */
     int highGrade = 0; /* set highGrade to lowest possible score */
     /* for you to complete */
+    for(i;i<pupils;i++){
+        for(j;j<tests;j++){
+            if(grades[i][j]>highGrade){
+                highGrade = grades[i][j];
+            }
+        }
+    }
     printf( "\n\tThe highest grade is %d\n", highGrade );
 } /* end function maximum */
 
