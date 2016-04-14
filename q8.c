@@ -47,9 +47,10 @@ void minimum( int grades[][ EXAMS ], int pupils, int tests ) {
     int lowGrade = 100; /* set lowGrade to highest possible score */
     for(i;i<pupils;i++){
         for(j;j<tests;j++){
-            if(grades[i][j]<lowfrade){
+            if(grades[i][j]<lowGrade){
                 lowGrade = grades[i][j];
             }
+        }
     }
 
     /* for you to complete */
