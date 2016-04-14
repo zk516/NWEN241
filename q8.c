@@ -60,8 +60,8 @@ void minimum( int grades[][ EXAMS ], int pupils, int tests ) {
 
 /* search for maximum value */
 void maximum( int grades[][ EXAMS ], int pupils, int tests ) {
-    int i; /* loop counter */
-    int j; /* loop counter */
+    int i = 0; /* loop counter */
+    int j = 0; /* loop counter */
     int highGrade = 0; /* set highGrade to lowest possible score */
     /* for you to complete */
     for(i;i<pupils;i++){
